@@ -63,8 +63,28 @@
 
         {% block content %}
 	      <div class="hero">
-          <img src="{{ get_url(path=config.extra.image) }}" />
-	        <p>{{ config.extra.caption | safe }}</p>
+          <p>Estudante de Ciência da Computação na Universidade Federal de Viçosa e
+            fundador do <a href='https://opensourcelabufv.github.io/' target='_blank' rel='noopener norreferer' class='underline'>Open Source Lab UFV</a>. Além disso, eu também escrevo as vezes. Quer saber mais? Pode conferir tudo na aba lateral.</p>
+          
+          <div class="info-holder">
+            <h2>Meus Interesses e Inspirações</h2>
+            <ul>
+              <li><a href="https://ose-21.org/">Open Source Everything</a></li>
+              <li>Anti-LGBTQIA+fobia</li>
+              <li>Antirracismo</li>
+              <li><a href="https://pt.wikipedia.org/wiki/Decrescimento_(economia)">Descrescimento Econômico</a></li>
+            </ul>
+          </div>
+
+          <div class="info-holder">
+            <h2>Em Tecnologia</h2>
+
+            <ul>
+              <li>Programação Funcional</li>
+              <li>Computação Científica</li>
+              <li>Programação Criativa</li>
+            </ul>
+          </div>
 	      </div>
         {% endblock content %}
 
